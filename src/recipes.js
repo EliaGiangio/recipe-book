@@ -1,0 +1,9 @@
+const recipes = [
+    { id: crypto.randomUUID(), name: 'Carbonara', ingredients: ['pasta', 'egg', 'bacon', 'cheese'], explanation: ['Mix grated cheese and eggs till it gets a creamy', 'cut the bacon(guanciale) in blocks and stir-fry till brown', 'switch off the stove, mix everything together and add some of the water you cooked the pasta in'] },
+    { id: crypto.randomUUID(), name: 'Lemon Chicken', ingredients: ['chciken', 'lemon', 'egg', 'flour', 'rice'], explanation: ['soak the chicken filets in the egs you scrambled', 'cover each piece in flour and fry', 'when both sides are cooked, fill a glass of half lemon juice and half water and throw the mix in the pan. Then cover', 'when the chicken absorbed at least half of the liquid you can turn off and let it rest for a few minutes before serving with steamed rice'] },
+    { id: crypto.randomUUID(), name: 'Fruit Mix', ingredients: ['banana', 'apple', 'mango'], explanation: ['cut the fruit you have', 'add lemon juice and if you prefer some sugar', 'let it rest for at least 30min'] },
+    { id: crypto.randomUUID(), name: 'Ragu (fast)', ingredients: ['pasta', 'tomato', 'beef', 'onion'], explanation: ['stir-fry onions (garlic if you have), and when the onions are done add the beef', 'when the beef is also ready add tomato sauce to it and if you want add a little exxtra water if the mix looks dry', 'let it cook till the extra liquid dries out and the sauce becomes thick (about 20min)', 'add the cooked pasta with some water it was boiled in'] },
+    { id: crypto.randomUUID(), name: 'Salad', ingredients: ['salad', 'onion', 'tomato'], explanation: ['cut all the ingredients', 'add olive oil, salt and vinegar', 'enjoooooy'] }
+];
+
+export default recipes;
