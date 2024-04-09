@@ -1,8 +1,3 @@
-# React + Vite
+One page react app used to pick recipes based on the ingredients I have available when I don't know what to cook.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I did not include the functionality for a user to add ingredients and/or recipes as the use of this app is just meant for me (and my partner :D)
