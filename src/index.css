@@ -6,6 +6,7 @@ body {
   align-items: center;
   overflow-y: auto;
   margin-top: 3%;
+
 }
 
 .container h1 {
@@ -48,16 +49,13 @@ body {
   height: 50px;
   font-size: 15px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-
 }
 
 .recipe-list-div {
   height: 15%;
   display: flex;
   overflow-x: auto;
-  background-color: #e9ecef;
   justify-content: center;
-
 }
 
 .card {
@@ -65,11 +63,17 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.card-body {
+  background-color: #f7f6f8;
+
+}
+
 .card h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: center;
+
 }
 
 .card p {
@@ -106,6 +110,11 @@ body {
   width: 50%;
   margin-top: 25%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: #f7f6f8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+
 }
 
 
